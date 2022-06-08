@@ -11,12 +11,14 @@
 html,
 body {
   height: 100%;
-  background: antiquewhite;
+  background: rgb(255, 255, 255);
 }
 body {
   line-height: 1.5;
 }
+a{text-decoration: none;
 
+}
 img,
 picture,
 video,
@@ -43,8 +45,8 @@ h6 {
 }
 
 .container{
-    width: 90%;
-    background: antiquewhite;
+    width: 100%;
+    background: rgb(255, 255, 255);
     margin: auto;
   }
   
@@ -69,82 +71,88 @@ h6 {
     flex-direction: column;
     margin-top: 10px;
   }
-  .menu{
-    margin: 50px auto;
-    text-align: center;
-    width: 70%;
-    
-  }
-  .menu-ul{
-    width: 100%;
-    height: 30px;
-    margin: auto;
-    background: black;
-    display: flex;
-    padding: 0px;
-  }
-  .menu>ul>li{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    width: 25%;
-    border-right: 2px solid rgb(255, 255, 255);
-    clear: both;
-  }
-  .menu>ul>li>a{
-    text-decoration: none;
-    color: azure;
-  }
-  .menu>ul>li:last-child {
-  border-right: none;
-  
-  }
-  
-  .li_2{
-    position: relative;
-  }
-  .li_2:hover .menucon{
-    display: block;
-  }
-  .menucon{
-    width: 104%;
-    height: 90px;
-    position: absolute;
-    left: -5px;
-    top: 35px;
-    padding: 0px;
-    display: none;
-  }
-  .menucon li{
-    clear: both;
-    width: 100%;
-    height: 30px;
-    border: 1px solid black;
-    padding: px;
-    background: white;
-  }
-  .menucon>li>a{
-    text-decoration: none;
+  .header_right span a{
     color: black;
-  }
-  
-  .div_hat{
-    margin: 20px auto;
-    max-width: 700px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .btn-mu{
-    width: 200px;height: 40px;
-    border: 2px solid rgb(255, 255, 255);
-    background: black;
-    border-radius: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: azure;
-  }
+}
+.menu{
+  margin: 50px auto;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+}
+.menu-ul{
+  width: 100%;
+  height: 40px;
+  margin: auto;
+  background: black;
+  display: flex;
+  padding: 0px;
+}
+.menu>ul>li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 25%;
+  border-right: 2px solid rgb(255, 255, 255);
+  clear: both;
+}
+.menu>ul>li>a{
+  text-decoration: none;
+  color: azure;
+}
+.menu>ul>li:last-child {
+border-right: none;
+
+}
+
+.li_2{
+  position: relative;
+}
+.li_2:hover .menucon{
+  display: block;
+}
+.menucon{
+  width: 104%;
+  height: 100px;
+  position: absolute;
+  left: -5px;
+  top: 30px;
+  padding: 0px;
+  display: none;
+}
+.menucon li{
+  clear: both;
+  width: 100%;
+  height: 30px;
+  border: 1px solid black;
+  padding: px;
+  background: white;
+}
+.menucon>li>a{
+  text-decoration: none;
+  color: black;
+}
+
+.div_hat{
+  margin: 20px auto;
+  max-width: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-mu{
+  width: 200px;height: 40px;
+  border: 2px solid rgb(255, 255, 255);
+  background: black;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+}
+.btn-mu a{
+  color: azure;
+}
   .text-home{
     margin: 40px auto;
     max-width: 700px;
