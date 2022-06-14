@@ -183,10 +183,9 @@ border-right: none;
     
 }
 .form-control{
-  width: 80%;
+  width: 100%;
   margin-top: 20px;
-  
-  
+  align-items: center;
 }
 .box-form .btn-light{
   align-items: center;
@@ -194,8 +193,9 @@ border-right: none;
   
 }
 #thepw{
-  width: 100%;
-  margin-left: 100px;
+  width: 80%;
+  margin: auto;
+  
   position: relative;
 }
 
@@ -203,7 +203,7 @@ border-right: none;
   
   position: absolute ;
   top: 90px;
-  right: 100px;
+  right: 10px;
   color: rgb(1, 0, 0);
  }
  #thepw .error1{
@@ -337,6 +337,21 @@ border-right: none;
         align-items: center;
         font-size: 7px;
         
+      }
+      .form-control{
+        width: 100%;
+        margin-top: 20px;
+        align-items: center;
+      }
+      .box-form .btn-light{
+        align-items: center;
+        font-size: 10px;
+        
+      }
+      #thepw{
+        width: 80%;
+        margin: auto;
+        position: relative;
       }
 
     .footer .footer-row{
@@ -477,6 +492,21 @@ border-right: none;
       align-items: center;
       font-size: 7px;
       
+    }
+    .form-control{
+      width: 100%;
+      margin-top: 20px;
+      align-items: center;
+    }
+    .box-form .btn-light{
+      align-items: center;
+      font-size: 10px;
+      
+    }
+    #thepw{
+      width: 80%;
+      margin: auto;
+      position: relative;
     }
     
 
